@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensure the body doesn't scroll when button moves */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button.moving-nobutton {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-container {
+    display: flex; /* Use flexbox to align buttons horizontally */
+    justify-content: center; /* Center align horizontally */
+    gap: 8px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
